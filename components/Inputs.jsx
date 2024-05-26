@@ -8,7 +8,7 @@ export default function Inputs(props) {
   const [ok, setok] = useState(true);
 
   const verif = () => {
-    if (n === "" || n < "0" || n > "20" || isNaN(n)) {
+    if (n === "" || Number(n) < 0 || Number(n) > 20 || isNaN(n)) {
       setok(false);
     } else {
       setok(true);

@@ -41,7 +41,7 @@ export default function FormsP(props) {
     e.preventDefault();
     let ress = 0;
     switch (bacName) {
-      case "Lettsetres":
+      case "Lettres":
         ress = Clettre(MG, A, PH, HG, F, Ang);
         break;
       case "Maths":
@@ -144,7 +144,7 @@ export default function FormsP(props) {
 
         {/*autsetres*/}
 
-        {(bacName === "Lettsetres" || bacName === "Sport") && (
+        {(bacName === "Lettres" || bacName === "Sport") && (
           <motion.div
             initial={{
               opacity: 0,
@@ -167,7 +167,7 @@ export default function FormsP(props) {
           </motion.div>
         )}
 
-        {(bacName === "Lettsetres" || bacName === "Eco") && (
+        {(bacName === "Lettres" || bacName === "Eco") && (
           <motion.div
             initial={{
               opacity: 0,
@@ -380,7 +380,7 @@ export default function FormsP(props) {
             </motion.div>
           </>
         )}
-        {bacName === "Lettsetres" && (
+        {bacName === "Lettres" && (
           <motion.div
             initial={{
               opacity: 0,
