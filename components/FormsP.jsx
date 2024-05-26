@@ -77,7 +77,10 @@ export default function FormsP(props) {
         onSubmit={handleSumbit}
       >
         <legend className=" text-xl underline col-span-3">
-          Entrez vos moyenes:
+          Entrez vos moyennes:{" "}
+          <span className="text-sm">
+            les valeurs avec le virgule s'écrit sous la forme 00.00 pas 00,00
+          </span>
         </legend>
 
         <motion.div
