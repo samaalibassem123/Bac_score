@@ -220,7 +220,6 @@ export default function FormsP(props) {
         )}
         {(bacName === "Maths" ||
           bacName === "Sience" ||
-          bacName === "Eco" ||
           bacName === "Technique" ||
           bacName === "Info" ||
           bacName === "Sport") && (
