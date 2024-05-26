@@ -76,9 +76,9 @@ export default function FormsP(props) {
         className=" rounded-lg z-20  2xl:grid 2xl:grid-cols-3 flex flex-col w-full  bg-white select-none font-ft  gap-5 sm:p-5 p-2 sm:w-[55%]"
         onSubmit={handleSumbit}
       >
-        <legend className=" text-xl underline col-span-3">
+        <legend className=" text-xl  col-span-3">
           Entrez vos moyennes:{" "}
-          <span className="text-sm">
+          <span className="text-sm ">
             les valeurs avec le virgule s'écrit sous la forme 00.00 pas 00,00
           </span>
         </legend>
