@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Loved+by+the+King&family=Roboto+Condensed:wght@500&family=Roboto+Mono:ital,wght@0,100;1,100&family=Rubik:ital,wght@1,600&family=Saira+Semi+Condensed:wght@100;400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
