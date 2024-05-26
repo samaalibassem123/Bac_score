@@ -219,7 +219,7 @@ export default function FormsP(props) {
           </motion.div>
         )}
         {(bacName === "Maths" ||
-          bacName === "Sience" ||
+          bacName === "Science" ||
           bacName === "Technique" ||
           bacName === "Info" ||
           bacName === "Sport") && (
