@@ -63,14 +63,17 @@ export default function FormsP(props) {
         ress = Csport(MG, SB, SPsport, EP, SP, PH, F, Ang);
         break;
     }
+
     setRes(ress);
     setpromp(true);
+    const form = e.target;
+    form.reset();
   };
 
   return (
     <>
       <form
-        className=" rounded-lg z-20  2xl:grid 2xl:grid-cols-3 flex flex-col w-full  bg-white select-none font-ft  gap-5 sm:p-5 p-2 sm:w-[55%] slec"
+        className=" rounded-lg z-20  2xl:grid 2xl:grid-cols-3 flex flex-col w-full  bg-white select-none font-ft  gap-5 sm:p-5 p-2 sm:w-[55%]"
         onSubmit={handleSumbit}
       >
         <legend className=" text-xl underline col-span-3">
@@ -473,7 +476,7 @@ export default function FormsP(props) {
       </form>
       {promp && (
         <motion.div
-          className=" rounded-lg shadow-lg border border-gray-300 absolute z-50 bg-white sm:w-[500px] w-full sm:h-[400px] p-2 flex flex-col  items-center gap-10 font-ft select-none"
+          className=" z-50 rounded-lg shadow-lg border border-gray-300 absolute  bg-white sm:w-[500px] w-full sm:h-[400px] p-2 flex flex-col  items-center gap-10 font-ft select-none"
           initial={{
             scale: 0,
             opacity: 0,

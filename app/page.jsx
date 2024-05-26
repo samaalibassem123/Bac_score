@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className=" font-ft select-none h-full">
       <Header title="Score BAC_TN" />
-      <div className="flex h-[80%] justify-center  items-center">
+      <div className="flex  justify-center  items-center">
         <section className=" w-full flex items-center justify-center sm:flex-row flex-col gap-2 backdrop-blur-sm p-5 flex-wrap  bg-white/30 m-5">
           <motion.div
             initial={{
