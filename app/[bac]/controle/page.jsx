@@ -1,10 +1,10 @@
 import React from "react";
 import { CiCalculator1 } from "react-icons/ci";
-export default function page() {
+import FormsC from "@/components/FormsC";
+export default function page({ params }) {
   return (
-    <div className="  text-4xl font-bold w-full h-screen flex justify-center items-center ">
-      <CiCalculator1 className="h-[50px] sm:w-[100px] w-[50px] animate-bounce" />
-      <p>Soon!</p>
+    <div className=" font-bold w-full h-fit flex flex-col py-2 items-center ">
+      <FormsC bac={params.bac} />
     </div>
   );
 }

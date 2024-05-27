@@ -5,7 +5,7 @@ export default function page({ params }) {
 
   return (
     <>
-      <div className="z-20 backdrop-blur-md bg-white/20 m-2 xl:h-[90%] h-full  p-2  flex flex-col justify-center items-center">
+      <div className="backdrop-blur-md bg-white/20 m-2 xl:h-[90%] h-full  p-2  flex flex-col justify-center items-center">
         <FormsP bac={bacName} />
       </div>
     </>

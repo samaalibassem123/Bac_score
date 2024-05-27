@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { CgDanger } from "react-icons/cg";
 import { CiCircleCheck } from "react-icons/ci";
+import { motion } from "framer-motion";
 export default function Inputs(props) {
   const text = props.text;
   const [n, setn] = useState("");
@@ -27,13 +28,35 @@ export default function Inputs(props) {
         onBlur={verif}
       />
       {!ok ? (
-        <span>
+        <motion.span
+          initial={{
+            opacity: 0,
+            visibility: 0,
+            scale: 0,
+          }}
+          animate={{
+            opacity: 1,
+            visibility: 1,
+            scale: 1,
+          }}
+        >
           <CgDanger className="m-2 bg-red-300 rounded-full" />
-        </span>
+        </motion.span>
       ) : (
-        <span>
+        <motion.div
+          initial={{
+            opacity: 0,
+            visibility: 0,
+            scale: 0,
+          }}
+          animate={{
+            opacity: 1,
+            visibility: 1,
+            scale: 1,
+          }}
+        >
           <CiCircleCheck className="bg-origin-border bg-green-500 rounded-full m-2" />
-        </span>
+        </motion.div>
       )}
     </div>
   );
