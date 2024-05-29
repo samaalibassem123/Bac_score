@@ -5,8 +5,21 @@ import { motion } from "framer-motion";
 import { Cmaths } from "@/utils/Calc";
 
 export default function Home() {
+  const AnimatePage = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+    },
+  };
   return (
-    <main className=" font-ft select-none h-full">
+    <motion.main
+      variants={AnimatePage}
+      initial="hidden"
+      animate="visible"
+      className=" font-ft select-none h-full"
+    >
       <Header title="Score BAC_TN" />
       <div className="flex  justify-center  items-center">
         <section className=" w-full flex items-center justify-center sm:flex-row flex-col gap-2 backdrop-blur-sm p-5 flex-wrap  bg-white/30 m-5">
@@ -151,6 +164,6 @@ export default function Home() {
           </motion.div>
         </section>
       </div>
-    </main>
+    </motion.main>
   );
 }
