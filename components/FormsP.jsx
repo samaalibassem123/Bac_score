@@ -478,7 +478,7 @@ export default function FormsP(props) {
       </form>
       {promp && (
         <motion.div
-          className=" z-50 rounded-lg shadow-lg border border-gray-300 absolute  bg-white sm:w-[500px] w-full sm:h-[400px] p-2 flex flex-col  items-center gap-10 font-ft select-none"
+          className=" z-50 rounded-lg shadow-2xl border border-gray-800 absolute  bg-white sm:w-[500px] w-full sm:h-[400px] p-2 flex flex-col  items-center gap-10 font-ft select-none"
           initial={{
             scale: 0,
             opacity: 0,
@@ -493,10 +493,19 @@ export default function FormsP(props) {
         >
           <p className="w-full">
             <CiCircleRemove
-              className=" float-right h-[50px] w-[50px] cursor-pointer hover:scale-105"
+              className=" float-right h-[50px] w-[50px] cursor-pointer hover:scale-110 "
               onClick={() => setpromp(false)}
             />
           </p>
+          <motion.hr
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+            }}
+            className="bg-black h-0.5 w-full"
+          />
           <motion.div
             className="flex flex-col items-center"
             initial={{
@@ -519,6 +528,20 @@ export default function FormsP(props) {
             <h1 className="text-4xl font-bold">Votre Score:</h1>
             <p className="text-4xl ">{res}</p>
           </motion.div>
+          <motion.hr
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+            }}
+            transition={{
+              delay: 1.7,
+              duration: 0.2,
+            }}
+            className="bg-black h-0.5 w-[80%]"
+          />
+
           <motion.div
             className="flex flex-col items-center"
             initial={{

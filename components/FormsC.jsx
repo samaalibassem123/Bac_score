@@ -553,7 +553,7 @@ export default function FormsC(props) {
         Session Controle
       </p>
       <form
-        className=" rounded-lg  2xl:grid 2xl:grid-cols-3 flex flex-col w-full  bg-white select-none font-ft  gap-5 sm:p-5 p-2 sm:w-[55%]"
+        className="rounded-lg  2xl:grid 2xl:grid-cols-3 flex flex-col w-full  bg-white select-none font-ft  gap-5 sm:p-5 p-2 sm:w-[55%]"
         onSubmit={handleSumbit}
       >
         <legend className=" text-xl  col-span-3">
