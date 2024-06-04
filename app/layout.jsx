@@ -9,7 +9,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="google-adsense-account" content="ca-pub-2432091582720443">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
