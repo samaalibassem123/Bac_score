@@ -1,0 +1,6 @@
+{
+  "/[bac]/page": "app/[bac]/page.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/page": "app/page.js",
+  "/[bac]/principale/page": "app/[bac]/principale/page.js"
+}
