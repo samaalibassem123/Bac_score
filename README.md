@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 
 ## 📧 Contact
 For any questions, feedback, or collaboration opportunities, feel free to reach out:
-- **Email:** your-email@example.com
+- **Email:** samaalibassem123@gmail.com
 - **LinkedIn:** [My Linkedin profile](https://www.linkedin.com/in/bassem-samaali/)
 
 ## 🌟 Contributing
