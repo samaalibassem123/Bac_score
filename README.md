@@ -38,6 +38,7 @@ To run this project locally, follow these steps:
     ```
 
 4. Open your browser and navigate to `http://localhost:3000` to view the application.
+5. or if u want you can acces to it directicaly from this link [Website](bac-score.vercel.app)
 
 ## 💻 Usage
 1. Enter your individual grades into the designated fields.
